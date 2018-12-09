@@ -12,7 +12,8 @@ export default class JumbotronCustom extends React.Component {
           <hr className="my-2" color='white' />
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
           <p className="lead">
-            <Button color="primary">Learn More</Button>
+            <Button color="primary" href='/'>Home</Button>
+            <Button color="primary" href='/account'>Account</Button>
           </p>
         </Container>
       </Jumbotron>
