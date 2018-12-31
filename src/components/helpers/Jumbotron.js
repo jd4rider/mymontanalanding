@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundimg from '../../assets/images/MontanaKitchen5.png'
+import backgroundimg from '../../assets/images/table.png'
 import { Jumbotron, Button, Container } from 'reactstrap';
 
 export default class JumbotronCustom extends React.Component {
@@ -23,12 +23,12 @@ export default class JumbotronCustom extends React.Component {
 
   render () {
     return (
-      <Jumbotron style={{backgroundImage: 'url('+backgroundimg+')', backgroundSize: 'cover', color: 'white' }}> 
+      <Jumbotron style={{backgroundImage: 'url('+backgroundimg+')', backgroundSize: 'cover', color: 'black' }}> 
         <Container>
-          <h1 className="display-3">Members Dashboard</h1>
-          <p className="lead">This is the Member Dashboard for My Montana Kitchen</p>
-          <hr className="my-2" color='white' />
-          <p>Welcome to the Dashboard where you as a Member of My Montana Kitchen can get to all your Member benefits</p>
+          <h1 className="display-3">My Montana Kitchen Table</h1>
+          <p className="lead">Welcome to your Member Dashboard</p>
+          <hr className="my-2" color='black' />
+          <p>Welcome to your Dashboard, where you, as a Member of the My Montana Kitchen Table Community, can access all the benefits of your membership!</p>
           <p className="lead">
             <Button style={{margin: '1px'}} color="primary" href='/'>Home</Button>
             <Button style={{margin: '1px'}} color="primary" href='/account'>Account</Button>
