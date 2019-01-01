@@ -1,5 +1,6 @@
 import React from 'react';
-import backgroundimg from '../../assets/images/table.png'
+import backgroundimg from '../../assets/images/table.png';
+import logoimg from '../../assets/images/logo3.png';
 import { Jumbotron, Button, Container } from 'reactstrap';
 
 export default class JumbotronCustom extends React.Component {
@@ -25,6 +26,7 @@ export default class JumbotronCustom extends React.Component {
     return (
       <Jumbotron style={{backgroundImage: 'url('+backgroundimg+')', backgroundSize: 'cover', color: 'black' }}> 
         <Container>
+          <a href='/'><img src={logoimg} alt='My Montana Kitchen logo' width='325px'/></a>
           <h1 className="display-3">My Montana Kitchen Table</h1>
           <p className="lead">Welcome to your Member Dashboard</p>
           <hr className="my-2" color='black' />
